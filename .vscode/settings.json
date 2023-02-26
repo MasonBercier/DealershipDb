@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "PostgreSQL",
+            "connectString": "postgres://orvugxxw:gKufATJJfQWCgywWSs15Be0SeTUUeLLR@raja.db.elephantsql.com/orvugxxw",
+            "name": "Dealership_db"
+        }
+    ]
+}
