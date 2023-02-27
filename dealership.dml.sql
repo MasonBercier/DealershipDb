@@ -14,7 +14,7 @@ INSERT INTO sales_person(
     'Williams'
 );
 INSERT INTO sales_invoice(
-    sale_date
+    sales_date
 ) VALUES (
     '2003-16-04'
 ),
@@ -54,10 +54,14 @@ INSERT INTO mechanic (
     last_name
 ) VALUES (
     'Mason',
-    'Bercier'),
-    ('Christian',
-    'Askew'),
-    ('Dylan',
+    'Bercier'
+),
+(   
+    'Christian',
+    'Askew'
+),
+(   
+    'Dylan',
     'Katina'
 );
 INSERT INTO car(
@@ -67,9 +71,13 @@ INSERT INTO car(
     car_year,
     for_sale
 ) VALUES (
-    'Dodge', 'Durango SRT Hellcat', 'Black', '2023', true),
-    ('Lexus', 'LFA', 'Black', '2013', true),
-    ('Jeep', 'Grand-Wagoneer L', 'Black', '2023', true
+    'Dodge', 'Durango SRT Hellcat', 'Black', '2023', true
+),
+(   
+    'Lexus', 'LFA', 'Black', '2013', true
+),
+(
+    'Jeep', 'Grand-Wagoneer L', 'Black', '2023', true
 );
 INSERT INTO service_ticket(
     date_of_service,
