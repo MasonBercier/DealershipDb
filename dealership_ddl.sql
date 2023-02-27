@@ -48,6 +48,7 @@ CREATE TABLE mechanics_used (
     mechanic_id INTEGER
 );
 
+
 CREATE TABLE service_ticket (
     service_ticket_id SERIAL PRIMARY KEY,
     date_of_service VARCHAR(50),

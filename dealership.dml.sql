@@ -16,15 +16,28 @@ INSERT INTO sales_person(
     'Williams'
 );
 INSERT INTO sales_invoice(
-    sales_date
+    sales_date,
+    sales_person_id,
+    car_id,
+    customer_id
 ) VALUES (
-    '2003-16-04'
+    '2003-16-04',
+    7,
+    1,
+    2
 ),
 (
-    '2016-13-04'
+    '2016-13-04',
+    8,
+    2,
+    3
+
 ),
 (
-    '2026-12-04'
+    '2026-12-04',
+    9,
+    3,
+    1
 );
 INSERT INTO customer(
     first_name,
@@ -84,10 +97,46 @@ INSERT INTO car(
 );
 INSERT INTO service_ticket(
     date_of_service,
-    service_done
+    service_done,
+    car_id,
+    customer_id,
+    mechanics_used_id
 ) VALUES (
-    '2023-01-01', 'Oil change and filter'),
-    ('2013-01-01', 'Tires changed and rotated'),
-    ('2023-02-02', 'Engine tune-up'
+    '2023-01-01',
+    'Oil change and filter',
+    1,
+    3,
+    2
+),
+(
+    '2013-01-01',
+    'Tires changed and rotated',
+    2,
+    1,
+    4
+
+),
+(
+    '2023-02-02',
+    'Engine tune-up',
+    3,
+    2,
+    3
+
 );
 -- - Moe
+
+INSERT INTO mechanics_used (
+    mechanic_id
+) VALUES (
+    1
+),
+(
+    2
+),
+(
+    3
+),
+(
+    4
+);
