@@ -1,3 +1,5 @@
+-- Shannon
+
 INSERT INTO sales_person(
     first_name,
     last_name
@@ -48,6 +50,7 @@ INSERT INTO customer(
     '929 grove st'
 );
 -- - Shannon
+
 -- - Moe
 INSERT INTO mechanic (
     first_name,
